@@ -22,7 +22,7 @@ class Person( name: String, val age: Int)  {
 class Novel(name: String , release: Int, author: Writer) {
 
   def authorAge(author: Writer, year: String ): Unit = {
-    println(s"Age of author is: ${year - author.year}")
+//    println(s"Age of author is: ${year - author.year}")
   }
 
   def isWrittenBy(author: Writer): Unit = {
